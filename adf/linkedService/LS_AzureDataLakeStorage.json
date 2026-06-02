@@ -3,7 +3,7 @@
     "properties": {
         "type": "AzureBlobFS",
         "typeProperties": {
-            "url": "https://clvdatalakegen2.dfs.core.windows.net",
+            "url": "https://datalake.dfs.core.windows.net",
             "accountKey": {
                 "type": "SecureString",
                 "value": "{{PLACEHOLDER_STORAGE_KEY}}"
