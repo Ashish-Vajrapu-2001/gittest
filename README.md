@@ -1,6 +1,6 @@
-# Customer Lifetime Value (CLV) Analytics - Bronze CDC Pipeline
+# Customer Lifetime Value (CLV) - Bronze CDC Pipeline
 
-## Project Overview
-This repository contains the production-ready code for a metadata-driven Change Data Capture (CDC) pipeline. It extracts data from 3 source systems (ERP, CRM, Marketing) into a Bronze Medallion layer (Delta Lake) to support Customer Lifetime Value (CLV) analytics.
+## Overview
+This repository contains the production-ready code for the Bronze layer of the CLV Medallion Architecture. It implements a metadata-driven Change Data Capture (CDC) pipeline using Azure Data Factory, Azure Databricks, and Azure SQL.
 
 ## Architecture Flow
