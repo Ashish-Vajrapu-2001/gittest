@@ -3,7 +3,7 @@
     "properties": {
         "type": "AzureSqlDatabase",
         "typeProperties": {
-            "connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=clv-control-sql-server.database.windows.net;Initial Catalog=clv-control-db;User ID={{PLACEHOLDER_SQL_USERNAME}};Password={{PLACEHOLDER_SQL_PASSWORD}}"
+            "connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:sql-server-control.database.windows.net,1433;Initial Catalog=ControlDB;User ID={{PLACEHOLDER_SQL_USERNAME}};Password={{PLACEHOLDER_SQL_PASSWORD}}"
         }
     }
 }
